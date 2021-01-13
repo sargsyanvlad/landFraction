@@ -12,7 +12,7 @@
         PORT=
         
         # api key
-        API_KEY=xrw%-}WERbhbc123D*CYYwteety=
+        API_KEY=SoMEAPIKEY
         
         # db Configs
         DB_HOST=
