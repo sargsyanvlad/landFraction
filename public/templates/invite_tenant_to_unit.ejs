@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head>
+    <!--[if gte mso 9]><xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml><![endif]-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--[if !mso]><!--><meta http-equiv="X-UA-Compatible" content="IE=edge" /><!--<![endif]-->
+    <title></title>
+
+</head>
+<body>
+    <h1>Hello! <%=params.fullName%></h1>
+    Invited You to join Unit </br>
+    <b>Unit Address is :: </b><i><%=params.address%></i>
+
+    <h1>TOKEN::: <%=params.token%></h1>
+    <!--TO DO send correct token inside url-->
+    <a href="http://54.166.128.189:80/tenants/signup?token=<%=params.token%>" target="_blank">Accept</a>
+</body>
+</html>
